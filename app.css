@@ -1,0 +1,770 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.body{
+    padding:0 20px;
+}
+
+.header{
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    background-color: #ffffff; 
+    font-family: "Poppins", sans-serif;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999; 
+}
+
+
+.header.border-on-scroll {
+    border:1px solid  rgb(229 231 235); 
+    box-shadow: 0 1px 0 0  rgb(229 231 235);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo span{
+    font-size: 21px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    opacity: 1;
+    color:rgb(17 24 39)
+}
+
+
+.logo-icon{
+    width:52px;
+    height:52px;
+    margin:0 10px 0 0;
+}
+
+.navigations {
+    width:1000px;
+    font-size: 20px;
+}
+
+
+.navigations span {
+    color: #4B5563;
+    padding: 12px;
+    margin: 10px;
+    width:600px;
+    font-size: 21px;    
+}
+
+.btn-img {
+    position: relative;
+}
+.btn-icons{
+    position: absolute;
+    margin: 10px 10px 2px 5px;
+    height:30px; 
+    width: 30px;
+}
+
+.navigations button{
+    padding:15px 20px 15px 40px ;    
+    font-size: 18px;
+    font-weight: 500;
+    color:White;
+    background: #1A56DB;
+    border:none;
+    border-radius: 10px;
+}
+
+#dashboard{
+    color:#3F83F8;
+    padding: 15px 0 15px 15px;
+}
+
+.theme-btn button{
+    padding:6px 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E5E7EB;
+}
+
+.theme-btn button img{
+    height:35px;
+    width: 35px;
+}
+
+.navigations span:hover{
+    color:#3F83F8;
+    cursor: pointer;
+}
+
+
+.btn-img button:hover {
+    background-color: #214491;
+}
+
+.main-body{
+    margin: 350px 0 180px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.tag-line{
+    width: 830px;
+    margin-top: 70px;
+}
+
+.tag-line text{
+    display: block;
+    font-size:7rem;
+    font-weight: 600;
+    height:80px;
+}
+
+#bluetext{
+    color:#1A56DB;
+}
+
+.tag-line p{
+    margin:80px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tag-line button{
+    padding:18px 0 18px 30px;  
+    margin: 20px 10px 20px 0; 
+    text-align: center;
+    font-size: 20px;
+    width:200;
+    color:White;
+    background: #1A56DB;
+    border:none;
+    border-radius: 10px;
+}
+.graph{
+    height: 500px;
+    width: 800px;
+}
+
+.tag-line .btn-icons{
+    position: absolute;
+    margin: 34px 2px 2px 12px;
+    height:30px; 
+    width: 30px;
+}
+
+#discord-btn {
+    width:180px;
+    background-color: #374151;
+}
+ 
+#join-btn{
+    width: 230px;
+    background-color: #374151;
+}
+
+#discord-btn:hover{
+    background-color: #2c313b;
+}
+#join-btn:hover{
+background-color: #2c313b;
+}
+
+.company-images{
+    position: relative;
+    opacity: 0.2;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.company-images img{
+height: 50px;
+margin: 100px 120px;
+}
+
+#yahoo{
+    position: absolute;
+    height:200px;
+    margin: 0 0 0 1150px;
+}
+
+.trading-info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.info{
+    padding:100px 20px;
+}
+
+.info text{
+    color:black;
+    font-size:43px;
+    font-weight: 700;
+    height: 300px;
+    padding-top: 0 0 100px 0;
+}
+
+.info p{
+    font-size:20px;
+    font-weight: 300;
+    margin-top: 45px; 
+    line-height: 33px;
+}
+
+.blocks{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.single-block{
+    width:49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(229 231 235);
+    padding: 30px;
+    margin: 10px 5px;
+    border-radius: 30px;
+    height: 400px;
+}
+
+.single-block:hover {
+    border: 1px solid #3F83F8;
+}
+
+.single-block img{
+    height:110px;
+    width: 110px;
+}
+
+.single-block h1{
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.single-block p{
+    font-size:21px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    color:#4B5563;
+}
+
+.trading-option {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.list1  {
+    display: flex;
+    justify-content: space-around;
+    width: 350px; 
+    background-color: rgb(229 231 235);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.selected{
+    background-color: rgb(28 100 242);
+    color:white;
+}
+
+.list1 li {
+    list-style: none;
+    padding: 15px 20px;
+    font-size: 22px;
+    border: none;
+    font-weight: 500;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-around;
+    width: 600px; 
+    background-color: rgb(229 231 235);
+    border-radius: 15px;
+}
+
+.list2 li {
+    list-style: none;
+    padding: 15px 15px 15px 15px;
+    font-size: 22px;
+    border: none;
+    font-weight: 500;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+ .tab-headings {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .heading1 {
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    text-align: center;
+    margin-right: 30px;
+}
+.heading1 hr{
+    width: 380px;
+    padding: 0 20px;
+    background-color: rgb(156 163 175);
+    height: 1px;
+    margin:60px 20px;
+
+}
+
+.heading1 h4{
+color:rgb(107 114 128);
+font-size: 45px;
+}
+
+.heading2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.heading2 hr{
+    width: 200px;
+    padding: 0 20px;
+    background-color: rgb(156 163 175);
+    height: 1px;
+    margin:60px 20px;
+}
+
+.heading2 h4{
+    color:rgb(107 114 128);
+    font-size: 45px;
+    height:50px;
+    }
+
+.tables {
+    display: flex; 
+    justify-content: space-between;
+}
+table{
+    font-size: 25px;
+    margin: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tab1{
+width:975px;
+}
+
+.tab1 th{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: justify;
+    width : 200px;
+    
+}
+
+.tab1 tbody{
+    width:975px;
+    background-color: rgb(249 250 251);
+}
+
+tr:hover{
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+td{
+    padding: 20px;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+
+.tab1 td{
+    width:240px; 
+}
+
+.tab1 .col1{
+    width:480px;
+}
+
+.tab2{
+    width:650px;
+}
+
+.t2col1{
+    width:400px;
+}
+
+.tab2 th{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: justify;
+    width : 200px;
+}
+
+.tab2 tbody{
+    width:650px;
+    background-color: rgb(249 250 251);
+}
+
+#orange{
+    color:rgb(245 205 124);
+}
+#green{
+    color:rgb(82 182 150);
+}
+#voilet{
+    color:#8560E4;
+}
+
+.tab2 button{
+    position: relative;
+    width:600px; 
+    margin:20px;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 500;
+    color:#3F83F8;
+    border: 3px solid rgb(63 131 248);
+    background-color: white;
+}
+
+.tab2 button img{
+    position:absolute;
+    padding-top: 5px;
+    padding-left: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.deal-offer{
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-offer .btn-img button{
+        padding:25px 70px ;    
+        font-size: 18px;
+        color:White;
+        background: #1A56DB;
+        border:none;
+        border-radius: 10px;
+}
+
+.deal-offer .btn-img .btn-icons{
+    position: absolute;
+    right: 190px;
+       margin: 15px 1px 0px 28px;
+       height:40px; 
+       width: 40px;
+}
+
+.deal-offer #dollar{
+    font-size: 20px;
+    vertical-align: super;
+    color: #1C64F2;
+}
+
+.deal-offer #number{
+    font-size: 60px;
+    font-weight: 800;
+    color: #1C64F2;
+}
+
+.deal-offer #amount{
+    font-size: 18px;
+    color: #1C64F2;
+}
+
+.deal-offer div{
+    padding: 0 10px 0 10px;
+}
+
+
+.objectives{
+    background-color: #2E3BEF;
+    opacity: 0.8;
+    display: flex; 
+    justify-content: space-between;
+    border-radius: 45px;
+    margin-bottom: 120px;
+}
+ 
+#trade-obj-img{
+    height:530px; 
+    width: 830px;
+    padding: 100px 20px 0 20px;
+    margin-bottom: 100px;
+}
+
+.objectives section h2{
+    padding:170px 15px 40px 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.objectives section p{
+    padding:0 15px 30px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #D1D5DB;
+}
+ 
+.objectives .btn-img button{
+    padding:18px 20px 18px 30px;  
+    margin: 20px 20px 20px 20px; 
+    text-align: center;
+    font-size: 18px;
+    width:200;
+    color:#1E1E1E;
+    background: #F3F4F6;
+    border:none;
+    border-radius: 10px;
+}
+
+.objectives .btn-img .btn-icons{
+    position: absolute;
+     right: 175px;
+        margin: 30px 1px 0px 28px;
+        height:35px; 
+        width: 35px;
+}
+
+.objectives .btn-img button:hover{
+    background-color: #f3f4f6db ;
+}
+
+
+
+
+.join-team {
+    background-color: #2E3BEF;
+    opacity: 0.8;
+    border-radius: 45px;
+    margin-bottom: 120px;
+}
+
+.join-team h2{
+    padding: 40px 40px 25px 40px;
+    color: white;
+    font-size: 40px;
+}
+
+.join-team p{
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    color: rgb(209 213 219);
+    padding: 0 40px 25px ;
+}
+
+.join-team .btn-img button{
+    padding:18px 0px 18px 30px;  
+    margin: 20px 0px 50px 40px; 
+    text-align: center;
+    font-size: 18px;
+    width:200;
+    color:White;
+    background: rgb(19, 94, 255);
+    border:none;
+    border-radius: 10px;
+}
+.join-team .btn-img .btn-icons{
+position: absolute;
+    margin: 35px 20px 0px 55px;
+    height:30px; 
+    width: 30px;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  rgb(229 231 235);
+
+}
+
+.grid{
+    padding:20px 0 20px 20px;
+}
+
+.grid1{
+    padding:20px 0 20px 20px;
+    width:49%;
+}
+
+.grid1 p{
+    color: rgb(156 163 175); 
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+.grid1 .imp{
+padding-top: 0;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.signup{
+    position: relative;
+    background-color: #F3F4F6;
+    width:800px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top:20px;
+}
+
+.signup text{
+    padding: 50px 100px 50px 20px ;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links ul{
+    list-style: none;
+    width: 400px;
+    margin-bottom: 200px;
+}
+
+.links .clr-li{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(28 100 242);
+}
+
+.links ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.links .clr-li:hover{
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+.links ul li{
+    padding:15px 0;
+    color: #6B7280;
+    font-size: 20px;
+}
+
+#signup-input{
+    padding: 20px 40px 20px 40px  ;
+    margin-right: 20px;
+    border-radius: 10px;
+    border:1px solid rgb(229 231 235);
+    font-size: 18px;
+}
+
+#input-btn{
+  position: absolute;
+  top: 45;
+  right: 40;
+
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(26 86 219); 
+  color: #fff;
+  cursor: pointer;
+  padding: 0px 12px;
+}
+
+#input-btn:hover{
+   background-color:  #214491;
+
+}
+
+#input-btn-img {
+    height: 40px;
+    width:40px;
+}
+.copy-rights{
+    width:100%;
+    background-color: #F3F4F6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    margin-bottom: 40px;
+}
+
+.copy-rights text{
+    padding: 30px 20px;
+    color:#6B7280;
+    font-size: 18px;
+}
+
+.copy-rights text img{
+    height: 13px; 
+    width: 18px;
+}
+
+.grid1 .about-company .round-button {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    border: none;
+    background-color: #F3F4F6; 
+    cursor: pointer;
+    overflow: hidden; 
+    margin: 17px 5px;
+  }
+  
+  .grid1 .about-company .round-button img {
+    width: 60%; 
+    height: 60%; 
+    object-fit: cover; 
+  }
+  

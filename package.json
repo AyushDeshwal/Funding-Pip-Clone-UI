@@ -1,0 +1,31 @@
+{
+  "name": "funding-pip",
+  "version": "1.0.0",
+  "description": "UI design",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "parcel index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "homepage": "https://ayushdeshwal.github.io/Funding-Pip-Clone-UI/app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyushDeshwal/Funding-Pips-UI-Internship-Assignment-"
+  },
+  "keywords": [
+    "UI"
+  ],
+  "author": "Ayush Deshwal",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
