@@ -4,10 +4,13 @@
   "description": "UI design",
   "main": "app.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
+  "homepage": "https://ayushdeshwal.github.io/Funding-Pip-Clone-UI/app",
   "repository": {
     "type": "git",
     "url": "https://github.com/AyushDeshwal/Funding-Pips-UI-Internship-Assignment-"
@@ -18,6 +21,7 @@
   "author": "Ayush Deshwal",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
