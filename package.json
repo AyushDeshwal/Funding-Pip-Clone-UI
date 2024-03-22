@@ -2,10 +2,9 @@
   "name": "funding-pip",
   "version": "1.0.0",
   "description": "UI design",
-  "main": "app.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "parcel index.html",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
